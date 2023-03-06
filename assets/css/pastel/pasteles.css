@@ -1,0 +1,29 @@
+.pasteles, .cupcake{
+    background: #EDE5D8;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cheesecakes{
+    background: #FFFBF5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0) {
+    .pasteles, .cupcake, .cheesecakes {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pasteles, .cupcake, .cheesecakes {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .pasteles, .cupcake, .cheesecakes {
+        padding: 5rem 0 0 5rem;
+    }
+}

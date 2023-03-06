@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Copo de Nieve</title>
+    <link rel="shortcut icon" href="./assets/img/icon/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="./assets/img/icon/favicon.ico" type="image/x-icon" />
+    <link href="assets/css/normalize.css" rel="stylesheet" />
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <link href="assets/css/cabecera.css" rel="stylesheet" />
+    <link href="assets/css/menu/menu.css" rel="stylesheet" />
+    <link href="assets/css/logo.css" rel="stylesheet" />
+    <link href="assets/css/banner/banner.css" rel="stylesheet" />
+    <link href="assets/css/personaliza.css" rel="stylesheet" />
+    <link href="assets/css/pedido.css" rel="stylesheet" />
+    <link href="assets/css/pie-de-pagina.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="cabecera">
+      <nav class="menu">
+        <div class="logo"></div>
+        <ul class="menu__lista">
+          <li class="menu__item"><a class="menu__link activo" href="index.html">Ínicio</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html#productos">Productos</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html#personaliza">Personaliza tu Pastel</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html#nosotros">Nosotros</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html#contacto">Contacto</a></li>
+          <li class="menu__item"><a class="menu__link social" href="signup.html">...</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="banner" id="inicio">
+      <div class="banner__imagen"></div>
+      <h3 class="banner__subtitulo elegancia">Elegancia</h3>
+      <h2 class="banner__titulo">Tradición</h2>
+      <h3 class="banner__subtitulo dulzura">y dulzura</h3>
+    </section>
+    <section class="personaliza__pastel">
+      <h2 class="descripcion">
+        Selecciona 1 o más sabores que contendrá tu pastel,
+        <br> recuerda que puedes combinarlos a tu gusto
+      </h2>
+      <div class="contenido">
+        <div class="bizcocho">
+          <h3 class="titulo">Sabor del Bizcocho</h3>
+          <div class="bizcocho__tipos">
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" checked/>Vainilla
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox"/>Chocolate
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Fresa
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Limón
+            </label>
+          </div>
+        </div>
+        <div class="relleno">
+          <h3 class="titulo">Sabor del relleno</h3>
+          <div class="relleno__tipos">
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" checked/>Mermelada
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Ganache
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Crema
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Praliné
+            </label>
+          </div>
+        </div>
+        <div class="cubierta">
+          <h3 class="titulo">Sabor del cubierta</h3>
+          <div class="cubierta__tipos">
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" checked/>Caramelo suave
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Frutas
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Fondant
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Merengue
+            </label>
+          </div>
+        </div>
+        <div class="decoracion">
+          <h3 class="titulo">Elige tu decoración</h3>
+          <div class="decoracion__tipos">
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" checked />Geométrica
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Florales
+            </label>
+            <label class="check">
+              <input type="checkbox" class="option-input checkbox" />Drip cakes
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pedido__pastel">
+      <h2 class="descripcion">Completa los datos para finalizar tu pedido</h2>
+      <div class="pedido__pasteleria">
+        <form>
+          <p>
+            <label for="name">Nombre</label>
+            <input type="text" name="name">
+          </p>
+          <p>
+            <label for="last-name">Apellidos</label>
+            <input type="text" name="last-name">
+          </p>
+          <p>
+            <label for="name">Teléfono</label>
+            <input type="text" name="phone">
+          </p>
+          <p>
+            <label for="city">Ciudad</label>
+            <input type="text" name="city">
+          </p>
+          <p>
+            <label for="address">Dirección</label>
+            <input type="text" name="address">
+          </p>
+          <p>
+            <label for="name">Email</label>
+            <input type="email" name="email">
+          </p>
+          <p class="full">
+            <label for="name">Mensaje</label>
+            <textarea name="message" class="message" rows="5"></textarea>
+          </p>
+          <p class="boton__enviar">
+            <button>Enviar</button>
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </body>
+  <footer class="pie-de-pagina">Contacto: ejemplo@email.com</footer>
+</html>

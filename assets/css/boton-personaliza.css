@@ -1,0 +1,18 @@
+.boton__personaliza {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    padding: 20px 35px 20px 0;
+    width: 50%;
+    margin-top: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 1.3rem;
+    text-transform: upperCase;
+    background-color: rgba(49, 176, 180, 0.644);
+}
+
+.boton__personaliza a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat, Medium;
+}

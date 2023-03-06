@@ -1,0 +1,29 @@
+.logo{
+    width: 184px;
+    height: 184px;
+    display: block;
+}
+
+.cabecera .menu .logo{
+    position: absolute;
+    display: block;
+    height: 230px;
+    top: -35px;
+    background-image: url(../img/logo.png);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 0px) {
+    .logo {
+        visibility:hidden;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block;
+        visibility: visible;
+    }
+}

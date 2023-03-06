@@ -1,0 +1,32 @@
+.cabecera{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #f9f9f9;
+    z-index: 21;
+}
+.cabecera .menu{
+    position: relative;
+    max-width: 1920px;
+    z-index: 10;
+    margin: -1px auto 0;
+    padding: 1px 0 0;
+    overflow: visible;
+}
+
+@media screen and (min-width: 0) {
+    .cabecera {
+        justify-content: center;
+        padding: 0 1rem;
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .cabecera {
+        justify-content: space-between;
+        padding: 0 5rem;
+        font-size: 15px;
+    }
+}

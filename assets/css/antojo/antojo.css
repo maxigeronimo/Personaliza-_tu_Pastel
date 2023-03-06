@@ -1,0 +1,50 @@
+.antojo{
+    text-align: center;
+}
+
+.antojo__titulo{
+    color: #1E1E1E;
+    font-family: Montserrat, SemiBold;
+}
+
+.bakery{
+    background: url(../../img/icon/bakery.png) no-repeat center;
+}
+
+.candle{
+    background: url(../../img/icon/candle.png) no-repeat center;
+
+}
+
+.pie{
+    background: url(../../img/icon/pie.png) no-repeat center;
+}
+
+.piece-cake{
+    background: url(../../img/icon/piece-cake.png) no-repeat center;
+}
+
+.antojo__icon{
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    background-size: auto 59px;
+}
+
+@media screen and (min-width: 0) {
+    .antojo {
+        padding: 2.5rem 1rem;
+    }
+    .antojo__titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .antojo {
+        padding: 0.5rem;
+    }
+    .antojo__titulo {
+        font-size: 3.1875rem;
+    }
+}

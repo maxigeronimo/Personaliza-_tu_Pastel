@@ -1,0 +1,19 @@
+.boton__pidelo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 10px 35px 10px 0;
+    width: 80%;
+    font-size: 1.25rem;
+    line-height: 1.3rem;
+    text-transform: upperCase;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: rgba(49, 176, 180, 0.644) 
+}
+
+.boton__pidelo a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat, Medium;
+}

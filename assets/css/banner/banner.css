@@ -1,0 +1,67 @@
+.banner {
+    position: relative
+}
+
+.banner__imagen {
+    background: url("../../img/banner.png") no-repeat center / cover;
+    width: 100%;
+}
+
+.banner__titulo {
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.banner__subtitulo{
+    color: #fdfdfd;
+    font-family: Montserrat, Bold;
+    text-transform: uppercase;
+    position: absolute;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.elegancia{
+    left: 30%;
+}
+
+.dulzura{
+    left: 70%;    
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagen {
+        height: calc(100vh - 51px);
+    }
+    .banner__titulo {
+        font-size: 3rem;
+    }
+    .elegancia{
+        font-size: 1.5rem;
+        top: 40%;
+    }
+    .dulzura{
+        font-size: 1.5rem;
+        top: 63%;   
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagen {
+        height: calc(100vh - 72px);
+    }
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+    .banner__subtitulo{
+        top: 52%;
+    }
+}

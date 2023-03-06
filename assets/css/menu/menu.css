@@ -1,0 +1,49 @@
+.menu__lista {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 10px;
+}
+
+.menu__item{
+    list-style: none;
+}
+
+.menu__item:last-child .menu-link{
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #808080;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+
+}
+
+.menu__link.activo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.social{
+    top: 7px;
+    background: url(../../img/icon/icon_person.png) no-repeat center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 0) {
+    .menu__lista {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }    
+}

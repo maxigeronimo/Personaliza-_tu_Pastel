@@ -1,0 +1,59 @@
+.pastel, .pastelitos{
+    background: #FFFBF5;
+}
+
+.pastelQueso{
+    background: #f1f1f1;
+}
+
+.pastel, .pastelitos, .pastelQueso {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.imagen{
+    height: 200px;
+}
+
+.titulo{
+    font-size: 1.4375rem;
+}
+
+.descripcion{
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.contenido{
+    padding: 1rem;
+}
+
+.descripcion{
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+
+@media screen and (min-width: 0) {
+    .pastel, .pastelQueso, .pastelitos {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pastel, .pastelQueso, .pastelitos {
+        margin-right: 2.5rem;
+        width: calc(33% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .pastel, .pastelQueso, .pastelitos {
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+}
